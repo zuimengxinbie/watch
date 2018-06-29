@@ -1,0 +1,113 @@
+/*
+* @Author: 陈琦
+* @Date:   2018-02-21 20:09:02
+* @Last Modified by:   陈琦
+* @Last Modified time: 2018-02-28 09:17:52
+*/
+*{
+margin:0;
+padding:0;
+/* list-style: none;   */
+font-size: 0.24rem;
+}
+img{
+display:block;
+}
+a{
+text-decoration:none;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);   
+}
+.nav4{
+	width: 100%;
+	height: 1.25rem;
+	padding: 0 0.24rem;
+	/* border-bottom: 0.02rem solid #EDEDED; */
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #F1F1F1;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	 border-top: 0.02rem solid #CDCDCB;
+	
+}
+.nav4 .one{
+	width: 1.12rem;
+	height: 1.0rem;
+/* 	background: yellow; */
+}
+.nav4 .one a{
+	display: block;
+	width: 1.12rem;
+	height: 1.0rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #656565;
+
+}
+.nav4 .one a span{
+	font-size: 0.4rem;
+
+}
+.nav4 .one3 a{
+	color: #D90413;
+}
+.header {
+    width: 100%;
+    height: 0.93rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    background: #EEEEEE;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.02rem solid #CDCDCB;
+}
+.header p{
+	font-size: 0.28rem;
+	color: #000000;
+	font-weight: bold;
+}
+
+.navbox{
+	width: 7.2rem;
+	height: 10.0rem;
+	background: #EEEEEE;
+	overflow: hidden;
+}
+.navbox .onea{
+	width: 2.40rem;
+	height: 2.40rem;
+	border-radius: 50%;
+	box-sizing: border-box;
+	border: 1px solid #D4D4D4;
+	margin: 3.0rem auto 0.30rem;
+}
+.navbox .onea img{
+	width: 1.60rem;
+	margin: 0.50rem auto;
+}
+.navbox .name1{
+	text-align: center;
+	color: #B5B5B5;
+}
+.navbox .name2{
+	width: 3.12rem;
+	height: 0.66rem;
+
+	border-radius: 0.05rem;
+	background: #E60013;
+	text-align: center;
+	line-height: 0.66rem;
+	font-size: 0.28rem;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 0.30rem;
+
+}

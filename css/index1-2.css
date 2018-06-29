@@ -1,0 +1,161 @@
+/*
+* @Author: 陈琦
+* @Date:   2018-03-01 08:59:01
+* @Last Modified by:   陈琦
+* @Last Modified time: 2018-03-01 10:34:51
+*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	font-size: 0.24rem;
+	/* font-family: "Microsoft Yahei","苹方"; */
+	font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+a{
+	text-decoration:none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);   
+}
+input {
+    outline: 0;
+}
+img{
+	display: block;
+}
+dd, dl, dt, li, ol, ul {
+    list-style: none;
+}
+header{
+	width: 7.2rem;
+	height: 0.88rem;
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #FFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .onea{
+	width: 0.58rem;
+	height: 0.88rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0.10rem 0;
+	justify-content: space-around;
+}
+header .iconfont{
+	font-size: 0.36rem;
+	color: #656565;
+}
+section{
+	width: 7.2rem;
+	margin-top: 0.88rem;
+	margin-bottom: 0.90rem;
+	height: auto;
+	overflow: hidden;
+}
+section .onea{
+	width: 7.2rem;
+	height: 2.68rem;
+	background: #F1F1F1;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+section .onea p{
+	width: 4.04rem;
+	height: 0.90rem;
+	border-radius: 0.45rem;
+	line-height: 0.90rem;
+	text-align: center;
+	border: 0.02rem solid #646464;
+	color: #6F6F6F;
+}
+section .oneb{
+    width: 7.2rem;
+	height: 0.88rem;
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+	background: #FFF;
+	display: flex;
+	align-items: center;
+	border-bottom: 0.01rem solid #DCDCDC;
+}
+section .oneb span{
+	margin-right: 0.10rem;
+	color: #6C6C6C;
+}
+section .oneb i{
+	font-size: 0.28rem;
+	color: #9A9A9A;
+}
+section .onec{
+	height: 2.24rem;
+	width: 6.72rem;
+	margin: 0 auto;
+	justify-content: space-between;
+
+
+}
+section .onec img{
+	width: 1.50rem;
+}
+section .onec .twoa{
+	width: 4.80rem;
+	height: 100%;
+	display: flex;
+	box-sizing: border-box;
+	padding: 0.20rem 0;
+	justify-content: space-between;
+    flex-direction: column;
+}
+section .onec .twoa .name1{
+	width: 1.0rem;
+	height: 0.25rem;
+	border-radius: 0.12rem;
+	line-height: 0.25rem;
+	text-align: center;
+	color: #BAAA95;
+}
+section .oned{
+	justify-content: space-between;
+    width: 6.72rem;
+	margin: 0 auto;
+}
+section .onef{
+	border-bottom: 0.25rem solid #F1F1F1;
+	height: 1.13rem;
+	width: 7.2rem;
+	padding: 0 0.48rem;
+}
+footer{
+	width: 7.2rem;
+	height: 0.90rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+
+	align-items: center;
+	display: flex;
+	flex-direction: row-reverse;
+}
+footer p{
+	width: 2.0rem;
+	height: 0.90rem;
+	background: #D90000;
+	color: #fff;
+	text-align: center;
+	line-height: 0.90rem;
+	margin-right: 0.24rem;
+
+}
+footer .cq{
+	margin-right: 0.10rem;
+}

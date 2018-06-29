@@ -1,0 +1,581 @@
+/*
+* @Author: 陈琦
+* @Date:   2018-02-06 08:54:16
+* @Last Modified by:   陈琦
+* @Last Modified time: 2018-02-28 10:11:59
+*/
+*{
+margin:0;
+padding:0;
+list-style: none;  
+font-size: 0.24rem;
+}
+img{
+display:block;
+}
+a{
+text-decoration:none;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);   
+}
+
+
+.header-box{
+	width: 7.2rem;
+	height: 4.8rem;
+	/*background:url('../img/mei.jpg') no-repeat;*/
+	/*background-position: center 0.93rem;*/
+	/*background-size: 7.2rem auto;*/
+
+	overflow: hidden;
+}
+.swiper-container{
+	width: 7.2rem;
+	height: 4.8rem;
+}
+.swiper-container img{
+	width: 7.2rem;
+	margin-top:0.93rem;
+}
+
+.header-box .header{
+	width: 100%;
+	height: 0.93rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background:#392742;
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	align-items: center;
+	/* justify-content: space-between;
+	align-items: center; */
+}
+
+.header-box .header span{
+	display: block;
+	height: 0.93rem;
+	width: 0.93rem;
+	font-size: 0.48rem;
+	text-align: center;
+	line-height: 0.93rem;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0rem;
+}
+.header-box .header i{
+	display: block;
+	height: 0.93rem;
+	width: 0.93rem;
+	font-size: 0.48rem;
+	text-align: center;
+	line-height: 0.93rem;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0rem;
+}
+.header-box .header .search {
+	width: 4.64rem;
+	height: 0.58rem;
+	margin: 0 auto;
+	background-color: #fff;  
+    border-radius: 0.1rem; 
+    box-sizing: border-box;
+    color: #CBCBCB;
+    line-height: 0.58rem;
+}
+.header-box .header .search span{
+	color: red;
+	width: 0.50rem;
+	height: 0.50rem;
+	margin-left: 1.35rem;
+	font-size: 0.40rem;
+	color: #CBCBCB;
+}
+
+
+.nav4{
+	width: 100%;
+	height: 1.25rem;
+	padding: 0 0.24rem;
+	/* border-bottom: 0.02rem solid #EDEDED; */
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #F1F1F1;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+}
+.nav4 .one{
+	width: 1.12rem;
+	height: 1.0rem;
+/* 	background: yellow; */
+}
+.nav4 .one a{
+	display: block;
+	width: 1.12rem;
+	height: 1.0rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #656565;
+
+}
+.nav4 .one a span{
+	font-size: 0.4rem;
+
+}
+.nav4 .one1 a{
+	color: #D90413;
+}
+
+
+.box1{
+	width: 7.2rem;
+	height: 1.83rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	/* background: yellowgreen; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* flex-wrap: wrap; */
+}
+.box1 a{
+	display: block;
+	color: #000000;
+}
+.box1 .one{
+	width: 1.0rem;
+	height: 1.0rem;
+/* 	background: red;
+ */	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.box1 .one .wp1 span{
+	font-size: 0.44rem;
+
+
+}
+
+
+.box2{
+	width: 7.2rem;
+/* 	height: 8.0rem; */
+	height: 6.6rem;
+	/* background: yellow; */
+	display: flex;
+	flex-direction: column;
+
+}
+.box2 .onea{
+	width: 100%;
+	height: 0.8rem;
+    padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: #EEEEEE;
+	display: flex;
+	align-items: center;
+
+}
+.box2 .onea .threea{
+	width: 0.08rem;
+	height: 0.30rem;
+	background:#FC4C4C;
+}
+.box2 .oneb{
+	width: 100%;
+	height: 2.80rem;
+	background: url('../img/tu111.jpg') center no-repeat;
+	background-size: cover;
+
+}
+.box2 .onec{
+	width: 100%;
+	height: 1.5rem;
+	/* background: red; */
+    padding: 0 0.24rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.box2 .onec .twoa{
+	width: 2rem;
+	height: 0.8rem;
+	/* background: blue; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.box2 .onec .twoa img{
+	height: 0.8rem;
+}
+
+.box2 .onec .twoa .threeb{
+	width: 0.80rem;
+	height: 0.40rem;
+	border-radius: 0.05rem;
+	background: #E4010F;
+	line-height: 0.40rem;
+	text-align: center;
+	font-size: 0.24rem;
+	color: #fff;
+}
+.box2 .onec .twoa .fonta{
+	width: 0.50rem;
+	height: 0.36rem;
+	background: #E4010F;
+	color: #fff;
+	line-height: 0.36rem;
+	text-align: center;
+	font-size: 0.16rem;
+	border-radius: 0.1rem;
+}
+.box2 .onec .twoa .fontb{
+	width: 0.40rem;
+	height: 0.36rem;
+	background: #E4010F;
+	color: #fff;
+	line-height: 0.36rem;
+	text-align: center;
+	font-size: 0.16rem;
+	border-radius: 0.1rem;
+}
+
+.box3{
+	width: 7.2rem;
+	height: 10.0rem;
+	display: flex;
+	/* background: yellowgreen; */
+	flex-direction: column;
+}
+.box3 .onea{
+	width: 100%;
+	height: 0.8rem;
+    padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: #EEEEEE;
+	display: flex;
+	align-items: center;
+
+}
+.box3 .onea .threea{
+	width: 0.08rem;
+	height: 0.30rem;
+	background:#FC4C4C;
+}
+.box3 .oneb{
+	width: 100%;
+	height: 5.18rem;
+	background: red;
+	display: flex;
+}
+
+.box3 .oneb img{
+	width: 50%;
+	cursor: pointer;
+}
+.box3 .onec{
+	width: 7.2rem;
+	height: 4.0rem;
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+	background: #eee;
+	display: flex;
+	justify-content: space-between;
+}
+.box3 .onec .twoa{
+	width:33.3%;
+	height: 100%; 
+	background: #EEEEEE;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0.20rem 0;
+	box-sizing: border-box;
+}
+.box3 .onec .twoa img{
+	width: 2.65rem;
+	height: 2.65rem;
+}
+
+
+
+
+.box4{
+	width: 7.2rem;
+	height: 9.20rem;
+	display: flex;
+	/* background: yellowgreen; */
+	flex-direction: column;
+}
+.box4 .onea{
+	width: 100%;
+	height: 0.8rem;
+    padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: #EEEEEE;
+	display: flex;
+	align-items: center;
+
+}
+.box4 .onea .threea{
+	width: 0.08rem;
+	height: 0.30rem;
+	background:#FC4C4C;
+}
+.box4 .oneb{
+	width: 100%;
+	height: 4.38rem;
+	background: red;
+	display: flex;
+}
+
+.box4 .oneb img{
+	width: 50%;
+	cursor: pointer;
+}
+.box4 .onec{
+	width: 7.2rem;
+	height: 4.0rem;
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+	background: #eee;
+	display: flex;
+	justify-content: space-between;
+}
+.box4 .onec .twoa{
+	width:50%;
+	height: 100%; 
+	background: #EEEEEE;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0.20rem 0;
+	box-sizing: border-box;
+}
+.box4 .onec .twoa img{
+	width: 2.65rem;
+	height: 2.65rem;
+}
+
+
+
+
+
+
+
+.box5 .onea{
+	width: 100%;
+	height: 0.8rem;
+    padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: #EEEEEE;
+	display: flex;
+	align-items: center;
+
+}
+.box5 .onea .threea{
+	width: 0.08rem;
+	height: 0.30rem;
+	background:#FC4C4C;
+}
+
+.box5 .oned{
+	width: 100%;
+	height: 2.7rem;
+	background: url('../img/m-1.jpg') no-repeat center;
+	background-size: cover;
+}
+.box5 .onef{
+	width: 7.2rem;
+	height: 4.0rem;
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.box5 .onef .twoa{
+	width:33.3%;
+	height: 100%; 
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0.20rem 0;
+	box-sizing: border-box;
+}
+.box5 .onef .twoa img{
+	width: 2.65rem;
+	height: 2.65rem;
+}
+.box5 .onek{
+	width: 100%;
+	height: 2.7rem;
+	background: url('../img/m-2.jpg') no-repeat center;
+	background-size: cover;
+}
+.box5 .onel{
+	width: 100%;
+	height: 2.7rem;
+	background: url('../img/m-3.jpg') no-repeat center;
+	background-size: cover;
+}
+.box5 .onez{
+	width: 100%;
+	height: 2.7rem;
+	background: url('../img/m-10.jpg') no-repeat center;
+	background-size: cover;
+}
+
+
+
+.box6{
+	width: 7.20rem;
+	height: 4.40rem;
+	background: #fff;
+}
+
+.box6 .onea{
+	width: 100%;
+	height: 0.8rem;
+    padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: #EEEEEE;
+	display: flex;
+	align-items: center;
+
+}
+.box6 .onea .threea{
+	width: 0.08rem;
+	height: 0.30rem;
+	background:#FC4C4C;
+}
+.box6 .oneb{
+	width: 7.20rem;
+	height: 3.6rem;
+	display: flex;
+	justify-content: space-between;
+}
+.box6 .oneb .twoa{
+	width: 3.59rem;
+	height: 100%;
+	background: url('../img/w-1.jpg') no-repeat center;
+	background-size: cover;
+}
+.box6 .oneb .twor{
+	width: 3.59rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.box6 .oneb .twor .foura{
+	width: 100%;
+	height: 1.79rem;
+	background: url('../img/w-2.jpg') no-repeat center;
+	background-size: cover;
+}
+.box6 .oneb .twor .fourb{
+	width: 100%;
+	height: 1.79rem;
+	background: url('../img/w-3.jpg') no-repeat center;
+	background-size: cover;
+}
+.box6 .oneb .twoa p{
+	width: 2.50rem;
+	height: 1.20rem;
+	margin: 2.0rem auto 0;
+	background: rgba(0, 0, 0, 0.5);
+	line-height: 1.00rem;
+	font-size: 0.32rem;
+	text-align: center;
+	color: #fff;
+}
+.box6 .oneb .twor .name1{
+	
+	height: 0.50rem;
+	margin: 1.30rem auto 0;
+	background: rgba(0, 0, 0, 0.5);
+	line-height: 0.50rem;
+	font-size: 0.24rem;
+	text-align: center;
+	color: #E9E9E7;
+}
+
+
+
+.box7{
+	width: 7.20rem;
+	height: 11.0rem;
+	background: #fff;
+}
+
+.box7 .onea{
+	width: 100%;
+	height: 0.8rem;
+    padding: 0 1.50rem;
+	box-sizing: border-box;
+	background: #EEEEEE;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+.box7 .onea p{
+	width: 1.0rem;
+	height: 0.36rem;
+
+	text-align: center;
+	margin: 0 auto;
+	color: #B3B3B3;
+}
+.box7 .onea .twoy{
+	width: 1.0rem;
+	height: 0.01rem;
+	background: #B3B3B3;
+}
+.box7 .oneb{
+	width: 7.2rem;
+	height: 9.0rem;
+	background: #eee;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.box7 .oneb .fivea{
+	width: 3.56rem;
+	height: 2.92rem;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.box7 .oneb .fivea p{
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+	color: #3F3F3F;
+	font-size: 0.24rem;
+}
+
+.box7 .oneb .fivea .name8{
+	width: 0.80rem;
+	height: 0.80rem;
+}
+.box7 .oneb .fivea .name9{
+	width: 3.56rem;
+}

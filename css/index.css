@@ -1,0 +1,276 @@
+/*
+* @Author: 陈琦
+* @Date:   2018-02-02 09:00:09
+* @Last Modified by:   陈琦
+* @Last Modified time: 2018-02-28 09:18:49
+*/
+*{
+margin:0;
+padding:0;
+/* list-style: none;   */
+font-size: 0.24rem;
+}
+img{
+display:block;
+}
+a{
+text-decoration:none;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);   
+}
+
+.header-box{
+	width: 7.2rem;
+	height: 4.8rem;
+	background:url('../img/tu-1.jpg');
+	background-size: 7.2rem auto;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.header-box .header{
+	width: 100%;
+	height: 0.93rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.8);
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* justify-content: space-between;
+	align-items: center; */
+}
+
+.header-box .header span{
+	display: block;
+	height: 0.93rem;
+	width: 0.93rem;
+	font-size: 0.48rem;
+	text-align: center;
+	line-height: 0.93rem;
+	color: #432644;
+	position: absolute;
+	top: 0;
+	right: 0.93rem;
+}
+.header-box .header i{
+	display: block;
+	height: 0.93rem;
+	width: 0.93rem;
+	font-size: 0.48rem;
+	text-align: center;
+	line-height: 0.93rem;
+	color: #432644;
+	position: absolute;
+	top: 0;
+	right: 0rem;
+}
+.header-box .header1{
+	width: 1.4rem;
+	height: 1.4rem;
+	border-radius: 50%;
+
+	margin: 1.2rem auto 0;
+	background: url('../img/tu-2.jpg') no-repeat center;
+	background-size: 1.4rem auto;
+}
+.header-box p{
+	margin-top: 0.20rem;
+	font-size: 0.32rem;
+	text-align: center;
+	color: #1D1A12;
+}
+.header-box p span{
+	color: red;
+}
+.header-box .name1{
+	margin: 0.10rem auto 0.04rem;
+}
+.header-box .header2{
+	width: 100%;
+	height: 1.0rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	
+	justify-content: space-around;
+	align-items: center;
+}
+.header-box .header2 .one1{
+	width: 1.50rem;
+	height: 1.0rem;
+
+/* 	background: green; */
+	text-align: center;
+/* 	line-height: 0.5rem; */
+/* 	position: relative;
+	top: 0;
+	left: 0; */
+
+}
+.header-box .header2 .one1 a{
+	display: block;
+	color: white;
+	line-height: 0.5rem;
+	padding-bottom: 0.05rem 0;
+}
+.header-box .header2 .one1 span{
+	font-size: 0.4rem;
+	line-height: 0.60rem;
+}
+
+.nav{
+	width: 100%;
+	height: 0.56rem;
+	padding: 0 0.24rem;
+	border-bottom: 0.02rem solid #EDEDED;
+	box-sizing: border-box;
+	text-align: left;
+	line-height: 0.56rem;
+	color: #373737;
+	text-indent: 0.24rem;
+	
+}
+.nav1{
+	width: 100%;
+	height: 1.45rem;
+	padding: 0 0.24rem;
+	/* border-bottom: 0.02rem solid #EDEDED; */
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.nav1 .one{
+	width: 1.12rem;
+	height: 1.0rem;
+	/* background: yellow; */
+}
+.nav1 .one a{
+	display: block;
+	width: 1.12rem;
+	height: 1.0rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #656565;
+
+}
+.nav1 .one a span{
+	font-size: 0.4rem;
+
+}
+.nav2{
+	width: 7.2rem;
+	height: 1.6rem;
+	padding: 0 0.24rem;
+	/* border-bottom: 0.02rem solid #EDEDED; */
+	box-sizing: border-box;
+	border-top: 0.30rem solid #EDEDED;
+	border-bottom: 0.30rem solid #EDEDED;
+	/* background: yellow; */
+}
+.nav2 a{
+	display: block;
+	width: 2.0rem;
+	height: 1.0rem;
+	line-height: 1.0rem;
+	color: #656565;
+}
+.nav2 a span{
+	font-size: 0.4rem;
+
+}
+.nav3{
+	width: 100%;
+	height: 2.5rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	/* background: rgba(255, 255, 255, 0.3); */
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;  
+}
+.nav3 .two1{
+     width: 100%;
+     height: 0.56rem;
+     line-height: 0.56rem;
+     font-weight: bold;
+     color: #353535;
+}
+.nav3 .two2{
+	width: 100%;
+	height: 0.96rem;
+	border-top: 0.02rem solid #EDEDED;
+	border-bottom: 0.02rem solid #EDEDED;
+}
+.nav3 .two3{
+	width: 100%;
+	height: 0.96rem;
+
+}
+.nav3 a{
+	display: block;
+	width: 4.0rem;
+	height: 1.0rem;
+	line-height: 0.9rem;
+	color: #656565;
+}
+.nav3 .two3 a{
+	line-height: 0.80rem;
+}
+.nav3 .two3 a span{
+	display: block;
+	float: left;
+	line-height: 0.8rem;
+}
+.nav3 a span{
+	font-size: 0.4rem;
+
+}
+.nav4{
+	width: 100%;
+	height: 1.25rem;
+	padding: 0 0.24rem;
+	/* border-bottom: 0.02rem solid #EDEDED; */
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #F1F1F1;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+}
+.nav4 .one{
+	width: 1.12rem;
+	height: 1.0rem;
+/* 	background: yellow; */
+}
+.nav4 .one a{
+	display: block;
+	width: 1.12rem;
+	height: 1.0rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #656565;
+
+}
+.nav4 .one a span{
+	font-size: 0.4rem;
+
+}
+.nav4 .one4 a{
+	color: #D90413;
+}
+
+.cq1-1{
+	margin-bottom: 1.25rem;
+}

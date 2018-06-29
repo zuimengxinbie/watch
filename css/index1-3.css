@@ -1,0 +1,73 @@
+/*
+* @Author: 陈琦
+* @Date:   2018-02-27 17:33:10
+* @Last Modified by:   陈琦
+* @Last Modified time: 2018-03-01 11:50:17
+*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	font-size: 0.24rem;
+	/* font-family: "Microsoft Yahei","苹方"; */
+	font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+a{
+	text-decoration:none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);   
+}
+input {
+    outline: 0;
+}
+img{
+	display: block;
+}
+dd, dl, dt, li, ol, ul {
+    list-style: none;
+}
+.name1{
+	width: 7.2rem;
+	margin: 0.10rem 0 0.20rem;
+	text-align: center;
+	align-items: center;
+	font-size: 1.0rem;
+	letter-spacing: 1em;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	color: #00ADD9;
+
+}
+.name2{
+	width: 7.2rem;
+	margin: 0 0 0.20rem;
+	text-align: center;
+	align-items: center;
+	font-size: 1.0rem;
+	letter-spacing: 1em;
+	animation-delay: 2s;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	color: #E0FE15;
+}
+.name3{
+	width: 7.2rem;
+	margin: 0 0 0.20rem;
+	text-align: center;
+	align-items: center;
+	font-size: 1.0rem;
+	letter-spacing: 1em;
+	animation-delay: 4s;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	color: #E6F0B2;
+}
+.tu{
+	width: 2.54rem;
+	margin-left: 4.0rem;
+}
+.name0{
+	height: 2.65rem;
+	margin-left:3.2rem;
+
+}

@@ -1,0 +1,189 @@
+/*
+* @Author: 陈琦
+* @Date:   2018-02-21 10:19:01
+* @Last Modified by:   陈琦
+* @Last Modified time: 2018-02-28 11:43:48
+*/
+
+*{
+margin:0;
+padding:0;
+/* list-style: none;   */
+font-size: 0.24rem;
+}
+img{
+display:block;
+}
+a{
+text-decoration:none;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);   
+}
+.nav4{
+	width: 100%;
+	height: 1.25rem;
+	padding: 0 0.24rem;
+	/* border-bottom: 0.02rem solid #EDEDED; */
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #F1F1F1;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+}
+.nav4 .one{
+	width: 1.12rem;
+	height: 1.0rem;
+/* 	background: yellow; */
+}
+.nav4 .one a{
+	display: block;
+	width: 1.12rem;
+	height: 1.0rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #656565;
+
+}
+.nav4 .one a span{
+	font-size: 0.4rem;
+
+}
+.nav4 .one2 a{
+	color: #D90413;
+}
+
+
+.header {
+    width: 100%;
+    height: 0.93rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    background: #EEEEEE;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+}
+.header p{
+	font-size: 0.28rem;
+	color: #000000;
+	font-weight: bold;
+}
+.header .name1 span{
+	font-size: 0.30rem;
+}
+.big-box{
+	width: 7.20rem;
+	height: 11.0rem;
+/* 	background: green; */
+	margin-top: 0.93rem;
+	display: flex;
+	justify-content: space-between;
+}
+.big-box .onea{
+	width: 1.60rem;
+	height: 100%;
+/* 	background: red; */
+	box-sizing: border-box;
+	border-right: 0.02rem solid #E5E5E5;
+	padding:24px ;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.big-box .onea .onecq{
+	width: 1.60rem;
+	height: 100%;
+/* 	background: red; */
+	box-sizing: border-box;
+	border-right: 0.02rem solid #E5E5E5;
+	padding:24px ;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	top: 0.93rem;
+	left: 0;
+}
+.big-box .onea .twoa{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	background: #D00000;
+	text-align: center;
+	line-height: 1rem;
+	color: #fff;
+	cursor: pointer;
+}
+
+.big-box .onea .twob{
+	width: 1rem;
+	height: 1.30rem;
+	text-align: center;
+	line-height: 1.30rem;
+	color: #656565;
+	cursor: pointer;
+}
+.big-box .oneb{
+	width: 5.58rem;
+	height: 100%;
+/* 	background: greenyellow; */
+	box-sizing: border-box;
+	padding: 0 0.32rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.big-box .oneb .threea{
+	width: 100%;
+	height: 0.56rem;
+	border-bottom: 0.02rem solid #CBCBCB;
+	color: #979797;
+	line-height: 0.56rem;
+	text-indent: 1em;
+	font-weight: bold;
+}
+.big-box .oneb .threeb{
+	width: 4.94rem;
+	height: 4.20rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.big-box .oneb .threeb .foura{
+	width: 33.3%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+}
+.big-box .oneb .threeb .foura img{
+	height: 1.40rem;
+	cursor: pointer;
+}
+.big-box .oneb .threed{
+	width: 4.94rem;
+	height: 4.60rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.big-box .oneb .threed .fivea{
+	width: 50%;
+	height: 33.3%;
+}
+.big-box .oneb .threed .fivea a{
+	display: block;
+}
+.big-box .oneb .threed .fivea img{
+	width: 1.5rem;
+	margin: 0 auto;
+}

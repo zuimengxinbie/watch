@@ -1,0 +1,146 @@
+/*
+* @Author: 陈琦
+* @Date:   2018-02-27 19:22:36
+* @Last Modified by:   陈琦
+* @Last Modified time: 2018-02-28 09:17:33
+*/
+/*
+* @Author: 陈琦
+* @Date:   2018-02-21 10:19:01
+* @Last Modified by:   陈琦
+* @Last Modified time: 2018-02-21 11:43:50
+*/
+
+*{
+margin:0;
+padding:0;
+/* list-style: none;   */
+font-size: 0.24rem;
+}
+img{
+display:block;
+}
+a{
+text-decoration:none;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);   
+}
+.nav4{
+	width: 100%;
+	height: 1.25rem;
+	padding: 0 0.24rem;
+	/* border-bottom: 0.02rem solid #EDEDED; */
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #F1F1F1;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+}
+.nav4 .one{
+	width: 1.12rem;
+	height: 1.0rem;
+/* 	background: yellow; */
+}
+.nav4 .one a{
+	display: block;
+	width: 1.12rem;
+	height: 1.0rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #656565;
+
+}
+.nav4 .one a span{
+	font-size: 0.4rem;
+
+}
+.nav4 .one2 a{
+	color: #D90413;
+}
+
+
+.header {
+    width: 100%;
+    height: 0.93rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    background: #EEEEEE;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+}
+.header p{
+	font-size: 0.28rem;
+	color: #000000;
+	font-weight: bold;
+}
+.header span{
+    font-size: 0.36rem;
+    color: #5D5D5D;
+}
+.header .name1 span{
+	font-size: 0.30rem;
+}
+.big-box{
+	width: 7.20rem;
+	height: auto;
+/* 	background: green; */
+	margin-top: 0.93rem;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+.big-box .onea{
+	width: 50%;
+	height: 0.95rem;
+	text-align: center;
+	line-height: 0.95rem;
+	color: #E50B1C;
+	box-sizing: border-box;
+	border-bottom: 0.05rem solid #DF0011;
+/* 	background: red; */
+
+}
+
+.big-box .oneb{
+	width: 50%;
+	height:0.95rem ;
+    text-align: center;
+	line-height: 0.95rem;
+	color: #7B7B7B;
+	box-sizing: border-box;
+	border-bottom: 0.01rem solid #A78B4D;
+/* 	background: greenyellow; */
+}
+.big-box .onec{
+	width: 50%;
+	height: 4.36rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.big-box .onec img{
+	width: 2.60rem;
+
+}
+.big-box .oned{
+    width: 50%;
+	height: 4.36rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.big-box .oned img{
+	width: 2.60rem;
+
+}
